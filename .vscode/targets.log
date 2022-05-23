@@ -1,0 +1,832 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Sun May 22 22:15:01 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `makefile', line 20)
+OBJ := obj
+# makefile (from `makefile', line 19)
+SRC := src
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/eliezerzuniga/Documents/metodologia diseño/problema2
+# makefile
+SHELL = /bin/sh
+# makefile (from `makefile', line 11)
+TO = $(patsubst %.java,%.class,$(patsubst $(SRC)%,$(OBJ)%,$(1)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# makefile (from `makefile', line 22)
+OBJSUBDIR := obj obj/man obj/fabrica obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/vscode-ipc-5246a561-cfe9-4366-9f84-82999e989981.sock
+# environment
+VSCODE_CWD = /Users/eliezerzuniga/Documents/metodologia diseño
+# makefile (from `makefile', line 24)
+AllCLASS := obj/man/FightManager.class obj/FightEngine.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.class obj/ambiente/SelectEnvironment.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Component.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.g5hozs3zYq/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/eliezerzuniga/Documents/metodologia diseño/problema2
+# makefile (from `makefile', line 23)
+ALLJAVAS := src/man/FightManager.java src/FightEngine.java src/fabrica/Factory.java src/fabrica/luchadores/MineroFactory.java src/fabrica/luchadores/AleatoryFghtFtry.java src/fabrica/luchadores/CaleranoFactory.java src/fabrica/luchadores/ChoroFactory.java src/fabrica/protectores/ArmourFactory.java src/fabrica/protectores/BucalFactory.java src/PlayExtremeFighter.java src/jugador/Cpu.java src/jugador/User.java src/jugador/Player.java src/ambiente/Environment.java src/ambiente/FightEnvironment.java src/ambiente/RoundEnvironment.java src/ambiente/SelectEnvironment.java src/estrategia/luchador/MineroWarrior.java src/estrategia/luchador/decorador/Armour.java src/estrategia/luchador/decorador/Component.java src/estrategia/luchador/decorador/Bucal.java src/estrategia/luchador/decorador/ComponentProtector.java src/estrategia/luchador/Luchador.java src/estrategia/luchador/ChoroPortenho.java src/estrategia/luchador/Calerano.java src/estrategia/habilidad/Magia.java src/estrategia/habilidad/Elastico.java src/estrategia/habilidad/Fuerza.java src/estrategia/habilidad/Habilidad.java src/estrategia/habilidad/Normal.java src/estrategia/observador/Referee.java
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/eliezerzuniga
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/eliezerzuniga/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = eliezerzuniga
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `makefile', line 6)
+define COMPILE
+$(4) : $(2)
+	$(1) $(2) $(3) -d $(5)
+endef
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `makefile', line 18)
+MKDIR := mkdir -p
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = eliezerzuniga
+# makefile (from `makefile', line 15)
+GAME := PlayExtremeFighter.java
+# makefile
+.DEFAULT_GOAL := PlayExtremeFighter.java
+# environment
+TERM_SESSION_ID = CBD6048C-7EAC-4865-BAE4-F4218EC9ED15
+# makefile (from `makefile', line 25)
+CLASSPATH := -cp src
+# makefile (from `makefile', line 16)
+JC := javac
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/eliezerzuniga/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 443
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.2212611.2212617.93CD4DCD-9086-4EC1-9396-DD5D6D11A933
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x8
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# makefile (from `makefile', line 21)
+SUBDIRS := src src/man src/fabrica src/fabrica/luchadores src/fabrica/protectores src/jugador src/ambiente src/estrategia src/estrategia/luchador src/estrategia/luchador/decorador src/estrategia/habilidad src/estrategia/observador
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 1408
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=99/529=19%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 2279741): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+obj/fabrica/luchadores:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/estrategia/luchador/decorador/Component.class: src/estrategia/luchador/decorador/Component.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+ 
+	javac src/estrategia/luchador/decorador/Component.java -cp src -d obj
+	
+
+# Not a target:
+src/estrategia/habilidad/Magia.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/habilidad/Fuerza.class: src/estrategia/habilidad/Fuerza.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/habilidad/Fuerza.java -cp src -d obj
+	
+
+# Not a target:
+src/fabrica/protectores/ArmourFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: info clean run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/jugador/User.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/luchador/ChoroPortenho.class: src/estrategia/luchador/ChoroPortenho.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/ChoroPortenho.java -cp src -d obj
+	
+
+obj/estrategia/luchador/decorador:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+# Not a target:
+src/estrategia/luchador/decorador/Component.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/estrategia/habilidad/Fuerza.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/observador:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/habilidad/Habilidad.class: src/estrategia/habilidad/Habilidad.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/habilidad/Habilidad.java -cp src -d obj
+	
+
+obj/estrategia/habilidad/Normal.class: src/estrategia/habilidad/Normal.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/habilidad/Normal.java -cp src -d obj
+	
+
+obj/fabrica/luchadores/AleatoryFghtFtry.class: src/fabrica/luchadores/AleatoryFghtFtry.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/luchadores/AleatoryFghtFtry.java -cp src -d obj
+	
+
+# Not a target:
+src/estrategia/luchador/ChoroPortenho.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-06 02:59:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/estrategia/luchador/Luchador.class: src/estrategia/luchador/Luchador.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/Luchador.java -cp src -d obj
+	
+
+obj/fabrica/luchadores/MineroFactory.class: src/fabrica/luchadores/MineroFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/luchadores/MineroFactory.java -cp src -d obj
+	
+
+obj/ambiente/FightEnvironment.class: src/ambiente/FightEnvironment.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/ambiente/FightEnvironment.java -cp src -d obj
+	
+
+obj/estrategia/habilidad:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/fabrica/protectores:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/fabrica:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+PlayExtremeFighter.java: obj obj/man obj/fabrica obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador obj/man/FightManager.class obj/FightEngine.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.class obj/ambiente/SelectEnvironment.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Component.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 30):
+	java -cp $(OBJ) $(SRC)/$(GAME)
+	
+
+# Not a target:
+src/jugador/Cpu.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/fabrica/luchadores/AleatoryFghtFtry.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/fabrica/Factory.class: src/fabrica/Factory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/Factory.java -cp src -d obj
+	
+
+# Not a target:
+src/estrategia/luchador/Luchador.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/FightEngine.class: src/FightEngine.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/FightEngine.java -cp src -d obj
+	
+
+obj/man/FightManager.class: src/man/FightManager.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/man/FightManager.java -cp src -d obj
+	
+
+ 
+obj/fabrica/luchadores/CaleranoFactory.class: src/fabrica/luchadores/CaleranoFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/luchadores/CaleranoFactory.java -cp src -d obj
+	
+
+# Not a target:
+src/fabrica/luchadores/MineroFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+# Not a target:
+src/ambiente/FightEnvironment.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/fabrica/luchadores/ChoroFactory.class: src/fabrica/luchadores/ChoroFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/luchadores/ChoroFactory.java -cp src -d obj
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/luchador/decorador/ComponentProtector.class: src/estrategia/luchador/decorador/ComponentProtector.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/decorador/ComponentProtector.java -cp src -d obj
+	
+
+obj/ambiente/SelectEnvironment.class: src/ambiente/SelectEnvironment.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/ambiente/SelectEnvironment.java -cp src -d obj
+	
+
+obj/fabrica/protectores/BucalFactory.class: src/fabrica/protectores/BucalFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/protectores/BucalFactory.java -cp src -d obj
+	
+
+obj/jugador:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/estrategia/habilidad/Magia.class: src/estrategia/habilidad/Magia.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/habilidad/Magia.java -cp src -d obj
+	
+
+obj/estrategia/luchador/Calerano.class: src/estrategia/luchador/Calerano.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/Calerano.java -cp src -d obj
+	
+
+# Not a target:
+src/fabrica/Factory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/estrategia/habilidad/Normal.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 49):
+	java -cp $(OBJ) $(SRC)/$(GAME)
+	
+
+obj/ambiente:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 47):
+	rm -r $(OBJ)
+	
+
+# Not a target:
+src/FightEngine.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/man/FightManager.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/PlayExtremeFighter.class: src/PlayExtremeFighter.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/PlayExtremeFighter.java -cp src -d obj
+	
+
+obj/estrategia/luchador/decorador/Armour.class: src/estrategia/luchador/decorador/Armour.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/decorador/Armour.java -cp src -d obj
+	
+
+# Not a target:
+src/fabrica/luchadores/CaleranoFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/habilidad/Elastico.class: src/estrategia/habilidad/Elastico.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/habilidad/Elastico.java -cp src -d obj
+	
+
+obj/estrategia:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+# Not a target:
+src/fabrica/luchadores/ChoroFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/man:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/jugador/Player.class: src/jugador/Player.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/jugador/Player.java -cp src -d obj
+	
+
+# Not a target:
+src/estrategia/luchador/decorador/ComponentProtector.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/luchador/decorador/Bucal.class: src/estrategia/luchador/decorador/Bucal.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/decorador/Bucal.java -cp src -d obj
+	
+
+# Not a target:
+src/ambiente/SelectEnvironment.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/fabrica/protectores/BucalFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/jugador/Cpu.class: src/jugador/Cpu.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/jugador/Cpu.java -cp src -d obj
+	
+
+obj/ambiente/Environment.class: src/ambiente/Environment.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/ambiente/Environment.java -cp src -d obj
+	
+
+obj/estrategia/luchador/MineroWarrior.class: src/estrategia/luchador/MineroWarrior.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/MineroWarrior.java -cp src -d obj
+	
+
+# Not a target:
+src/estrategia/luchador/Calerano.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/ambiente/RoundEnvironment.class: src/ambiente/RoundEnvironment.java
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/ambiente/RoundEnvironment.java -cp src -d obj
+	
+
+obj/estrategia/observador/Referee.class: src/estrategia/observador/Referee.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/observador/Referee.java -cp src -d obj
+	
+
+# Not a target:
+src/PlayExtremeFighter.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/estrategia/luchador/decorador/Armour.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/estrategia/habilidad/Elastico.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/fabrica/protectores/ArmourFactory.class: src/fabrica/protectores/ArmourFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/protectores/ArmourFactory.java -cp src -d obj
+	
+
+# Not a target:
+src/estrategia/luchador/decorador/Bucal.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/estrategia/luchador:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
+
+# Not a target:
+src/estrategia/habilidad/Habilidad.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/jugador/Player.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/ambiente/Environment.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/estrategia/luchador/MineroWarrior.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/ambiente/RoundEnvironment.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/jugador/User.class: src/jugador/User.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/jugador/User.java -cp src -d obj
+	
+
+info:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 38):
+	$(info $(SUBDIRS))
+	$(info $(OBJSUBDIR))
+	$(info $(ALLJAVAS))
+	$(info $(AllCLASS))
+	
+
+# Not a target:
+src/estrategia/observador/Referee.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=16/172=9%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 22 22:15:01 2022
+
+ 
