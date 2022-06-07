@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Sun May 22 22:15:01 2022
+# Make data base, printed on Mon Jun  6 19:51:51 2022
 
 # Variables
 
@@ -18,14 +15,10 @@ make: *** No rule to make target `all'.  Stop.
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # makefile (from `makefile', line 20)
 OBJ := obj
 # makefile (from `makefile', line 19)
 SRC := src
-# environment
-LC_CTYPE = UTF-8
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -55,9 +48,9 @@ INFOPATH = /opt/homebrew/share/info:
 # makefile (from `makefile', line 22)
 OBJSUBDIR := obj obj/man obj/fabrica obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/vscode-ipc-5246a561-cfe9-4366-9f84-82999e989981.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/vscode-ipc-5bd84296-9341-488d-9b8c-03280c6f64fa.sock
 # environment
-VSCODE_CWD = /Users/eliezerzuniga/Documents/metodologia diseño
+VSCODE_CWD = /
 # makefile (from `makefile', line 24)
 AllCLASS := obj/man/FightManager.class obj/FightEngine.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.class obj/ambiente/SelectEnvironment.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Component.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
 # environment
@@ -69,7 +62,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.g5hozs3zYq/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.APTqJTUfbT/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -90,8 +83,6 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 HOME = /Users/eliezerzuniga
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
-# environment
-VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/eliezerzuniga/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
@@ -116,7 +107,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 3
+SHLVL = 1
 # default
 MAKE_VERSION := 3.81
 # environment
@@ -125,8 +116,6 @@ USER = eliezerzuniga
 GAME := PlayExtremeFighter.java
 # makefile
 .DEFAULT_GOAL := PlayExtremeFighter.java
-# environment
-TERM_SESSION_ID = CBD6048C-7EAC-4865-BAE4-F4218EC9ED15
 # makefile (from `makefile', line 25)
 CLASSPATH := -cp src
 # makefile (from `makefile', line 16)
@@ -135,8 +124,6 @@ JC := javac
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
-# environment
-TERM_PROGRAM = Apple_Terminal
 # default
 .VARIABLES := 
 # environment
@@ -152,9 +139,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-TERM_PROGRAM_VERSION = 443
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.2212611.2212617.93CD4DCD-9086-4EC1-9396-DD5D6D11A933
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.2212611.2212617
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -186,11 +171,9 @@ SUBDIRS := src src/man src/fabrica src/fabrica/luchadores src/fabrica/protectore
 # environment
 LANG = C
 # environment
-TERM = xterm-256color
-# environment
-VSCODE_PID = 1408
+VSCODE_PID = 901
 # variable set hash-table stats:
-# Load=86/1024=8%, Rehash=0, Collisions=99/529=19%
+# Load=79/1024=8%, Rehash=0, Collisions=99/522=19%
 
 # Pattern-specific Variable Values
 
@@ -198,9 +181,9 @@ VSCODE_PID = 1408
 
 # Directories
 
-# . (device 16777231, inode 2279741): 7 files, no impossibilities.
+# . (device 16777232, inode 2279741): 11 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -221,11 +204,13 @@ obj/estrategia/luchador/decorador/Component.class: src/estrategia/luchador/decor
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `makefile', line 32):
- 
 	javac src/estrategia/luchador/decorador/Component.java -cp src -d obj
 	
 
 # Not a target:
+ 
+make: *** No rule to make target `all'.  Stop.
+
 src/estrategia/habilidad/Magia.java:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -444,8 +429,8 @@ obj/man/FightManager.class: src/man/FightManager.java
 	javac src/man/FightManager.java -cp src -d obj
 	
 
- 
 obj/fabrica/luchadores/CaleranoFactory.class: src/fabrica/luchadores/CaleranoFactory.java
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -703,9 +688,9 @@ src/estrategia/luchador/Calerano.java:
 
 obj/ambiente/RoundEnvironment.class: src/ambiente/RoundEnvironment.java
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  commands to execute (from `makefile', line 32):
 	javac src/ambiente/RoundEnvironment.java -cp src -d obj
 	
@@ -827,6 +812,6 @@ src/estrategia/observador/Referee.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun May 22 22:15:01 2022
+# Finished Make data base on Mon Jun  6 19:51:51 2022
 
  

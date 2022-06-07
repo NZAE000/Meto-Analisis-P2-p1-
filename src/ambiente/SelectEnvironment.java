@@ -29,7 +29,7 @@ public class SelectEnvironment extends Environment{
 
 	private void showMenuFighters()
 	{
-		short size = FightManager.N_FTRY;
+		short size = FightManager.N_FTRY_FIGHTER;
 		for (short opF=0; opF<size; ++opF)
 			System.out.println(opF+1 + "_ " + my_man.getFightFactory(opF).getType());
 	}
@@ -55,7 +55,7 @@ public class SelectEnvironment extends Environment{
 
 	private void showMenuProtectors()
 	{
-		short size = FightManager.N_PTCTS;
+		short size = FightManager.N_FTRY_PROTEC;
 		short opP;
 		for (opP=0; opP<size; ++opP){
 			System.out.println(opP+1 + "_ " + this.my_man.getProtecFactory(opP).getType());
@@ -65,7 +65,7 @@ public class SelectEnvironment extends Environment{
 	private void turnSelectProtector(Player p)
 	{
 		short opP = (short)(p.selectProtector()-1);
-		if (opP < FightManager.N_PTCTS){
+		if (opP < FightManager.N_FTRY_PROTEC){
 			Component selectProtec = my_man.getProtecFactory(opP).createComponent();
 			((ComponentProtector) selectProtec).setComponent(p.getFighter());
 			p.setFighter(selectProtec);
@@ -89,7 +89,7 @@ public class SelectEnvironment extends Environment{
 
 	private void showMenuAbilities(Player player1)
 	{
-		short size = FightManager.N_ABLTS;
+		short size = FightManager.N_ABILITIES;
 		String tipo = null;
 		for (short i=0; i<size; ++i){
 			tipo = my_man.getAbility(i).getTipo();

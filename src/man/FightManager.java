@@ -9,7 +9,7 @@ import fabrica.protectores.*;
 
 public final class FightManager {
 
-    public static short N_FTRY = 0, N_PTCTS = 0, N_ABLTS = 0;
+    public static short N_FTRY_FIGHTER = 0, N_FTRY_PROTEC = 0, N_ABILITIES = 0;
     private List<Factory> myFactoryFght           = null;
     private List<Factory> myFactoryProt           = null;
     private List<Habilidad> abilities             = null;
@@ -47,7 +47,7 @@ public final class FightManager {
 		myFactoryFght.add(new MineroFactory());
         myFactoryFght.add(new CaleranoFactory());
         myFactoryFght.add(new AleatoryFghtFtry());
-        FightManager.N_FTRY = (short) myFactoryFght.size();
+        FightManager.N_FTRY_FIGHTER = (short) myFactoryFght.size();
     }
     //FABRICAS DE PROTECTORES
     private void initProtectorFactories()
@@ -55,7 +55,7 @@ public final class FightManager {
         myFactoryProt = new ArrayList<Factory>();
 		myFactoryProt.add(new BucalFactory());
 		myFactoryProt.add(new ArmourFactory());
-        FightManager.N_PTCTS = (short) myFactoryProt.size();
+        FightManager.N_FTRY_PROTEC = (short) myFactoryProt.size();
     }
 
     //HABILIDADES PARA LUCHADORES
@@ -66,7 +66,7 @@ public final class FightManager {
         abilities.add(new Fuerza());
         abilities.add(new Elastico());
         abilities.add(new Magia());
-        FightManager.N_ABLTS = (short) abilities.size();
+        FightManager.N_ABILITIES = (short) abilities.size();
     }
 
     //ENTREGAR FABRICA DE LUCHADOR ELEGIDO

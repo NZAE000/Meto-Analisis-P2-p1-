@@ -13,7 +13,7 @@ public class Cpu extends Player{
     @Override
     public short selectFighter() {
         int min_val = 1;
-        int max_val = FightManager.N_FTRY;
+        int max_val = FightManager.N_FTRY_FIGHTER;
         Random ran = new Random();
         int numF = ran.nextInt(max_val) + min_val;
         return (short) numF;
@@ -21,7 +21,7 @@ public class Cpu extends Player{
     @Override
     public short selectHabilidad() {
         int min_val = 1;
-        int max_val = FightManager.N_ABLTS;
+        int max_val = FightManager.N_ABILITIES;
         Random ran = new Random();
         int numH = ran.nextInt(max_val) + min_val;
         return (short) numH;  
@@ -38,7 +38,7 @@ public class Cpu extends Player{
     @Override
     public short selectProtector() {
         int min_val = 1;
-        int max_val = FightManager.N_PTCTS+1;
+        int max_val = FightManager.N_FTRY_PROTEC+1;
         Random ran = new Random();
         int numP = ran.nextInt(max_val) + min_val;
         return (short) numP;
