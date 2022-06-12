@@ -1,8 +1,8 @@
 package fabrica.luchadores;
 
+import estrategia.Component;
 import estrategia.habilidad.Fuerza;
 import estrategia.luchador.ChoroPortenho;
-import estrategia.luchador.decorador.Component;
 import fabrica.Factory;
 
 public class ChoroFactory extends Factory{

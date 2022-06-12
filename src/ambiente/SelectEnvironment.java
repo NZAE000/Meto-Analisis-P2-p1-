@@ -1,7 +1,8 @@
 package ambiente;
 
+import estrategia.Component;
+import estrategia.Damageable;
 import estrategia.luchador.Luchador;
-import estrategia.luchador.decorador.Component;
 import estrategia.luchador.decorador.ComponentProtector;
 import jugador.Player;
 import man.FightManager;
@@ -67,7 +68,7 @@ public class SelectEnvironment extends Environment{
 		short opP = (short)(p.selectProtector()-1);
 		if (opP < FightManager.N_FTRY_PROTEC){
 			Component selectProtec = my_man.getProtecFactory(opP).createComponent();
-			((ComponentProtector) selectProtec).setComponent(p.getFighter());
+			((ComponentProtector) selectProtec).setComponent((Damageable) p.getFighter());
 			p.setFighter(selectProtec);
 			System.out.println("\n" + p.getName() + " AÑADIO " + ((ComponentProtector) p.getFighterProtected()).getTipo());
 		}

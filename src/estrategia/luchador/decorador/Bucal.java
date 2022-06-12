@@ -1,11 +1,12 @@
 package estrategia.luchador.decorador;
 
+import estrategia.Damageable;
 import estrategia.luchador.Luchador.KEY;
 
 public class Bucal extends ComponentProtector{
     public static final String TIPO = "BUCAL";
 
-    public Bucal(Component comp) { super(comp); }
+    public Bucal(Damageable comp) { super(comp); }
 
     @Override
     public short damageIt(short damage, short opcion) 

@@ -1,6 +1,6 @@
 package fabrica;
 
-import estrategia.luchador.decorador.Component;
+import estrategia.Component;
 
 public abstract class Factory {
     abstract public Component createComponent();

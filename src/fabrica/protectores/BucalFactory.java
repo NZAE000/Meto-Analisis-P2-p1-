@@ -1,7 +1,7 @@
 package fabrica.protectores;
 
+import estrategia.Component;
 import estrategia.luchador.decorador.Bucal;
-import estrategia.luchador.decorador.Component;
 import fabrica.Factory;
 
 public class BucalFactory extends Factory{

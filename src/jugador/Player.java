@@ -1,6 +1,6 @@
 package jugador;
 
-import estrategia.luchador.decorador.Component;
+import estrategia.Component;
 
 public abstract class Player {
     private String namePlayer = null;

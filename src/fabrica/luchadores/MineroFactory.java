@@ -1,8 +1,8 @@
 package fabrica.luchadores;
 
+import estrategia.Component;
 import estrategia.habilidad.Magia;
 import estrategia.luchador.MineroWarrior;
-import estrategia.luchador.decorador.Component;
 import fabrica.Factory;
 
 public class MineroFactory extends Factory{

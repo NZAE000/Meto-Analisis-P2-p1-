@@ -1,15 +1,18 @@
 package estrategia.luchador.decorador;
 
-public abstract class ComponentProtector implements Component{
-    private Component compnToDecorate = null;
+import estrategia.Component;
+import estrategia.Damageable;
 
-    public ComponentProtector(Component comp) { this.compnToDecorate = comp; }
-    public void setComponent(Component comp)  { this.compnToDecorate = comp; }
-    public Component getComponent()           { return this.compnToDecorate;}
+public abstract class ComponentProtector extends Component implements Damageable{
+    private Damageable compnToDecorate = null;
+
+    public ComponentProtector(Damageable comp) { this.compnToDecorate = comp; }
+    public void setComponent(Damageable comp)  { this.compnToDecorate = comp; }
+    public Damageable getComponent()           { return this.compnToDecorate;}
 
     @Override
     public Component getRootCmpt(){
-        return this.compnToDecorate.getRootCmpt();
+        return ((Component) this.compnToDecorate).getRootCmpt();
     }
     @Override
     abstract public short damageIt(short damage, short opcion);

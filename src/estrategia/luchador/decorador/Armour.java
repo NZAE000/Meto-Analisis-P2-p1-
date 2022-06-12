@@ -1,11 +1,12 @@
 package estrategia.luchador.decorador;
 
+import estrategia.Damageable;
 import estrategia.luchador.Luchador.KEY;
 
 public class Armour extends ComponentProtector{
     public static final String TIPO = "ARMOUR";
 
-    public Armour(Component comp) { super(comp); }
+    public Armour(Damageable comp) { super(comp); }
 
     @Override
     public short damageIt(short damage, short opcion) 

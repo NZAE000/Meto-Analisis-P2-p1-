@@ -3,10 +3,11 @@ package estrategia.luchador;
 import java.util.HashMap;
 import java.util.Map;
 
+import estrategia.Component;
+import estrategia.Damageable;
 import estrategia.habilidad.Habilidad;
-import estrategia.luchador.decorador.Component;
 
-public abstract class Luchador implements Component{
+public abstract class Luchador extends Component implements Damageable{
     public class TipoAccion{
         public String tipo = null;
         public String accion = null;

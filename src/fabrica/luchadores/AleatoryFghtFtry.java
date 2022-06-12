@@ -1,8 +1,8 @@
 package fabrica.luchadores;
 
+import estrategia.Component;
 import estrategia.habilidad.*;
 import estrategia.luchador.*;
-import estrategia.luchador.decorador.Component;
 import fabrica.Factory;
 
 public class AleatoryFghtFtry extends Factory{
