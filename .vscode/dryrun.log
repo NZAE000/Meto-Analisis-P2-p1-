@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/eliezerzuniga/Documents/metodologia diseño/problema2'
 mkdir -p obj obj/man obj/fabrica obj/fabrica/habilidades obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador
@@ -70,3 +71,9 @@ javac src/estrategia/observador/Referee.java -cp src -d obj
 java -cp obj src/PlayExtremeFighter.java
 make: Leaving directory `/Users/eliezerzuniga/Documents/metodologia diseño/problema2'
  
+=======
+make.exe --dry-run --always-make --keep-going --print-directory
+"make.exe" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+>>>>>>> 1af7b30480dadb9b1f8c0f734c7e9106389df56a

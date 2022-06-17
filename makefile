@@ -36,8 +36,11 @@ $(foreach F,$(ALLJAVAS),$(eval $(call COMPILE,$(JC),$(F),$(CLASSPATH),$(call TO,
 
 info:
 	$(info $(SUBDIRS))
+
 	$(info $(OBJSUBDIR))
+	
 	$(info $(ALLJAVAS))
+
 	$(info $(AllCLASS))
 
 $(OBJSUBDIR):
