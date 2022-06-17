@@ -16,13 +16,10 @@ public abstract class Player {
     public String getName()  { return namePlayer;  }
     public short getPoints() { return this.points; }
     public void addPoint()   { this.points += 1;   }
-    public void setFighter(Component luch_elegido)
-    { 
-        this.luchador = luch_elegido; 
-    }
-    public Component getFighter()           { return this.luchador.getRootCmpt(); }
-    public Component getFighterProtected()  { return this.luchador; }
-    public void resetFighter()              { this.luchador = null; }
+    public Component getFighter()                   { return this.luchador.getRootCmpt(); }
+    public Component getFighterProtected()          { return this.luchador; }
+    public void setFighter(Component luch_elegido)  { this.luchador = luch_elegido; }
+    public void resetFighter()                      { this.luchador = null; }
     //public void resetPoints()               { this.points = 0;    }
 
     abstract public short selectFighter();

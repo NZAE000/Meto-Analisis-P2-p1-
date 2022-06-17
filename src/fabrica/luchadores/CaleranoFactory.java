@@ -5,7 +5,7 @@ import estrategia.habilidad.Elastico;
 import estrategia.luchador.Calerano;
 import fabrica.Factory;
 
-public class CaleranoFactory extends Factory{
+public class CaleranoFactory implements Factory{
 
     @Override
     public Component createComponent() {

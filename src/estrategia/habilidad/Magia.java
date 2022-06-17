@@ -1,8 +1,8 @@
 package estrategia.habilidad;
 
-public class Magia implements Habilidad{
+public class Magia extends Habilidad{
 
-    private static final String TIPO = "MAGIA";
+    public static final String TIPO = "MAGIA";
 
     @Override
     public String lanzar() { return "INVOCADO SUPER PODER MÁGICO!!!\n";}

@@ -63,9 +63,8 @@ public class RoundEnvironment extends Environment{
 		TipoAccion someAction = ((Luchador) attacker.getRootCmpt()).getAction(opcion, (Luchador) receiver.getRootCmpt());
 		System.out.println(someAction.accion);
 		
-		System.out.println("aca1");
 		((ComponentProtector) receiver).damageIt(someAction.damage, opcion);
-		System.out.println("aca2");
+		System.out.println("acaaa");
 	}
 
 	private boolean finished(Player player1, Player player2)

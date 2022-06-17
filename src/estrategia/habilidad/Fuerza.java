@@ -1,8 +1,8 @@
 package estrategia.habilidad;
 
-public class Fuerza implements Habilidad{
+public class Fuerza extends Habilidad{
 
-    private static final String TIPO = "FUERZA";
+    public static final String TIPO = "FUERZA";
 
     @Override
     public String lanzar() { return "AGARRE SUPER FUERTE!!!\n"; }

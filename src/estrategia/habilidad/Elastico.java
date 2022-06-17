@@ -1,8 +1,8 @@
 package estrategia.habilidad;
 
-public class Elastico implements Habilidad{
+public class Elastico extends Habilidad{
 
-    private static final String TIPO = "ELÁSTICO";
+    public static final String TIPO = "ELÁSTICO";
 
     @Override
     public String lanzar() { return "COMBO SUPER ELÁSTICO!!!\n"; }

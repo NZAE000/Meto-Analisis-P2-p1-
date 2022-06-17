@@ -5,7 +5,7 @@ import estrategia.habilidad.Fuerza;
 import estrategia.luchador.ChoroPortenho;
 import fabrica.Factory;
 
-public class ChoroFactory extends Factory{
+public class ChoroFactory implements Factory{
 
     @Override
     public Component createComponent() {

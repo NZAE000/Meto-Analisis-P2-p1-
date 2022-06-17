@@ -5,7 +5,7 @@ import estrategia.habilidad.*;
 import estrategia.luchador.*;
 import fabrica.Factory;
 
-public class AleatoryFghtFtry extends Factory{
+public class AleatoryFghtFtry implements Factory{
 
     @Override
     public Component createComponent() {

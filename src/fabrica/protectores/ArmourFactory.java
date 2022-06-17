@@ -4,7 +4,7 @@ import estrategia.Component;
 import estrategia.luchador.decorador.Armour;
 import fabrica.Factory;
 
-public class ArmourFactory extends Factory{
+public class ArmourFactory implements Factory{
 
     @Override
     public Component createComponent() {

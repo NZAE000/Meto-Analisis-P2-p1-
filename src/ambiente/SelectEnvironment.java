@@ -2,6 +2,7 @@ package ambiente;
 
 import estrategia.Component;
 import estrategia.Damageable;
+import estrategia.habilidad.Habilidad;
 import estrategia.luchador.Luchador;
 import estrategia.luchador.decorador.ComponentProtector;
 import jugador.Player;
@@ -60,21 +61,16 @@ public class SelectEnvironment extends Environment{
 		short opP;
 		for (opP=0; opP<size; ++opP){
 			System.out.println(opP+1 + "_ " + this.my_man.getProtecFactory(opP).getType());
-		} System.out.println(opP+1 + "_ NINGUNO");
+		}
 	}
 
 	private void turnSelectProtector(Player p)
 	{
 		short opP = (short)(p.selectProtector()-1);
-		if (opP < FightManager.N_FTRY_PROTEC){
-			Component selectProtec = my_man.getProtecFactory(opP).createComponent();
-			((ComponentProtector) selectProtec).setComponent((Damageable) p.getFighter());
-			p.setFighter(selectProtec);
-			System.out.println("\n" + p.getName() + " AÑADIO " + ((ComponentProtector) p.getFighterProtected()).getTipo());
-		}
-		else{
-			System.out.println("\n" + p.getName() + " SIN PROTECCION AÑADIDA");
-		}
+		Component selectProtec = my_man.getProtecFactory(opP).createComponent();
+		((ComponentProtector) selectProtec).setComponent((Damageable) p.getFighter());
+		p.setFighter(selectProtec);
+		System.out.println("\n" + p.getName() + " AÑADIO " + ((ComponentProtector) p.getFighterProtected()).getTipo());
 	}
 
 	private void selectAbilities(Player player1, Player player2)
@@ -93,7 +89,7 @@ public class SelectEnvironment extends Environment{
 		short size = FightManager.N_ABILITIES;
 		String tipo = null;
 		for (short i=0; i<size; ++i){
-			tipo = my_man.getAbility(i).getTipo();
+			tipo = my_man.getAbilityFactory(i).getType();
 			System.out.print(i+1 + "_ " + tipo);
 			if (tipo.equals(((Luchador) player1.getFighter()).getHabilidad().getTipo()))
 				System.out.print(" (por defecto)");
@@ -105,7 +101,7 @@ public class SelectEnvironment extends Environment{
 	{
 		short opA = (short)(p.selectHabilidad()-1);
 		// Se le asigna la habilidad dada la posicion siendo la opcion ingresada
-		((Luchador) p.getFighter()).setHabilidad(my_man.getAbility(opA));
+		((Luchador) p.getFighter()).setHabilidad((Habilidad) my_man.getAbilityFactory(opA).createComponent());
 		System.out.println("LA HABILIDAD DE " + ((Luchador) p.getFighter()).getTipo() + " ES.. " +
 			((Luchador) p.getFighter()).getHabilidad().getTipo() + "!!\n");
 	}

@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sun Jun 12 02:42:50 2022
+# Make data base, printed on Thu Jun 16 21:30:13 2022
 
 # Variables
 
@@ -49,13 +49,13 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # makefile (from `makefile', line 22)
-OBJSUBDIR := obj obj/man obj/fabrica obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador
+OBJSUBDIR := obj obj/man obj/fabrica obj/fabrica/habilidades obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/vscode-ipc-1e0d92eb-b9e0-42dd-bf5f-48b9ea2f45d6.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/vscode-ipc-3dd6e934-8f4c-4907-87fe-ed6e5494e2d4.sock
 # environment
 VSCODE_CWD = /
 # makefile (from `makefile', line 24)
-AllCLASS := obj/man/FightManager.class obj/FightEngine.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.class obj/ambiente/SelectEnvironment.class obj/estrategia/Damageable.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/Component.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
+AllCLASS := obj/man/FightManager.class obj/FightEngine.class obj/fabrica/habilidades/MagiaFactory.class obj/fabrica/habilidades/FuerzaFactory.class obj/fabrica/habilidades/ElasticoFactory.class obj/fabrica/habilidades/NormalFactory.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/NoneFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.class obj/ambiente/SelectEnvironment.class obj/estrategia/Damageable.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/decorador/None.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/Component.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
 # environment
 PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
@@ -65,7 +65,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.vCR51Cu45Q/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Gr0sFueYak/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -73,7 +73,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/eliezerzuniga/Documents/metodologia diseño/problema2
 # makefile (from `makefile', line 23)
-ALLJAVAS := src/man/FightManager.java src/FightEngine.java src/fabrica/Factory.java src/fabrica/luchadores/MineroFactory.java src/fabrica/luchadores/AleatoryFghtFtry.java src/fabrica/luchadores/CaleranoFactory.java src/fabrica/luchadores/ChoroFactory.java src/fabrica/protectores/ArmourFactory.java src/fabrica/protectores/BucalFactory.java src/PlayExtremeFighter.java src/jugador/Cpu.java src/jugador/User.java src/jugador/Player.java src/ambiente/Environment.java src/ambiente/FightEnvironment.java src/ambiente/RoundEnvironment.java src/ambiente/SelectEnvironment.java src/estrategia/Damageable.java src/estrategia/luchador/MineroWarrior.java src/estrategia/luchador/decorador/Armour.java src/estrategia/luchador/decorador/Bucal.java src/estrategia/luchador/decorador/ComponentProtector.java src/estrategia/luchador/Luchador.java src/estrategia/luchador/ChoroPortenho.java src/estrategia/luchador/Calerano.java src/estrategia/Component.java src/estrategia/habilidad/Magia.java src/estrategia/habilidad/Elastico.java src/estrategia/habilidad/Fuerza.java src/estrategia/habilidad/Habilidad.java src/estrategia/habilidad/Normal.java src/estrategia/observador/Referee.java
+ALLJAVAS := src/man/FightManager.java src/FightEngine.java src/fabrica/habilidades/MagiaFactory.java src/fabrica/habilidades/FuerzaFactory.java src/fabrica/habilidades/ElasticoFactory.java src/fabrica/habilidades/NormalFactory.java src/fabrica/Factory.java src/fabrica/luchadores/MineroFactory.java src/fabrica/luchadores/AleatoryFghtFtry.java src/fabrica/luchadores/CaleranoFactory.java src/fabrica/luchadores/ChoroFactory.java src/fabrica/protectores/ArmourFactory.java src/fabrica/protectores/NoneFactory.java src/fabrica/protectores/BucalFactory.java src/PlayExtremeFighter.java src/jugador/Cpu.java src/jugador/User.java src/jugador/Player.java src/ambiente/Environment.java src/ambiente/FightEnvironment.java src/ambiente/RoundEnvironment.java src/ambiente/SelectEnvironment.java src/estrategia/Damageable.java src/estrategia/luchador/MineroWarrior.java src/estrategia/luchador/decorador/Armour.java src/estrategia/luchador/decorador/Bucal.java src/estrategia/luchador/decorador/ComponentProtector.java src/estrategia/luchador/decorador/None.java src/estrategia/luchador/Luchador.java src/estrategia/luchador/ChoroPortenho.java src/estrategia/luchador/Calerano.java src/estrategia/Component.java src/estrategia/habilidad/Magia.java src/estrategia/habilidad/Elastico.java src/estrategia/habilidad/Fuerza.java src/estrategia/habilidad/Habilidad.java src/estrategia/habilidad/Normal.java src/estrategia/observador/Referee.java
 # environment
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
@@ -87,7 +87,7 @@ HOME = /Users/eliezerzuniga
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/eliezerzuniga/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = /Users/eliezerzuniga/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LOGNAME = eliezerzuniga
 # environment
@@ -134,7 +134,7 @@ TMPDIR = /var/folders/_4/zw0dymqx3_x4t81q_6xyn4lc0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/eliezerzuniga/Library/Application Support/Code/1.68.0-main.sock
+VSCODE_IPC_HOOK = /Users/eliezerzuniga/Library/Application Support/Code/1.68.1-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -142,7 +142,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.3112245.3112251
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.3343371.3343377
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -170,13 +170,13 @@ SUFFIXES :=
 # environment
 MAKELEVEL := 0
 # makefile (from `makefile', line 21)
-SUBDIRS := src src/man src/fabrica src/fabrica/luchadores src/fabrica/protectores src/jugador src/ambiente src/estrategia src/estrategia/luchador src/estrategia/luchador/decorador src/estrategia/habilidad src/estrategia/observador
+SUBDIRS := src src/man src/fabrica src/fabrica/habilidades src/fabrica/luchadores src/fabrica/protectores src/jugador src/ambiente src/estrategia src/estrategia/luchador src/estrategia/luchador/decorador src/estrategia/habilidad src/estrategia/observador
 # environment
 LANG = C
 # environment
-VSCODE_PID = 672
+VSCODE_PID = 632
 # variable set hash-table stats:
-# Load=79/1024=8%, Rehash=0, Collisions=102/535=19%
+# Load=79/1024=8%, Rehash=0, Collisions=120/613=20%
 
 # Pattern-specific Variable Values
 
@@ -184,7 +184,7 @@ VSCODE_PID = 672
 
 # Directories
 
-# . (device 16777232, inode 2279741): 11 files, no impossibilities.
+# . (device 16777233, inode 2279741): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
 
@@ -203,10 +203,25 @@ obj/fabrica/luchadores:
 	
 
 # Not a target:
+src/estrategia/luchador/decorador/None.java:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 src/estrategia/habilidad/Magia.java:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+obj/fabrica/habilidades:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	$(MKDIR) $(OBJSUBDIR)
+	
 
 obj/estrategia/habilidad/Fuerza.class: src/estrategia/habilidad/Fuerza.java
 #  Implicit rule search has not been done.
@@ -222,7 +237,6 @@ src/fabrica/protectores/ArmourFactory.java:
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 all:
 #  Command-line target.
@@ -243,6 +257,14 @@ src/jugador/User.java:
 #  Modification time never checked.
 #  File has not been updated.
 
+obj/fabrica/habilidades/ElasticoFactory.class: src/fabrica/habilidades/ElasticoFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/habilidades/ElasticoFactory.java -cp src -d obj
+	
+
 obj/estrategia/luchador/ChoroPortenho.class: src/estrategia/luchador/ChoroPortenho.java
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -257,6 +279,14 @@ obj/estrategia/luchador/decorador:
 #  File has not been updated.
 #  commands to execute (from `makefile', line 44):
 	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/fabrica/habilidades/MagiaFactory.class: src/fabrica/habilidades/MagiaFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/habilidades/MagiaFactory.java -cp src -d obj
 	
 
 # Not a target:
@@ -279,6 +309,14 @@ obj/estrategia/observador:
 #  Modification time never checked.
 #  File has not been updated.
 
+obj/fabrica/protectores/NoneFactory.class: src/fabrica/protectores/NoneFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/protectores/NoneFactory.java -cp src -d obj
+	
+
 obj/estrategia/habilidad/Habilidad.class: src/estrategia/habilidad/Habilidad.java
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -294,6 +332,12 @@ obj/estrategia/habilidad/Normal.class: src/estrategia/habilidad/Normal.java
 #  commands to execute (from `makefile', line 32):
 	javac src/estrategia/habilidad/Normal.java -cp src -d obj
 	
+
+# Not a target:
+src/fabrica/habilidades/ElasticoFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 obj/fabrica/luchadores/AleatoryFghtFtry.class: src/fabrica/luchadores/AleatoryFghtFtry.java
 #  Implicit rule search has not been done.
@@ -334,6 +378,12 @@ obj/estrategia/luchador/Luchador.class: src/estrategia/luchador/Luchador.java
 	javac src/estrategia/luchador/Luchador.java -cp src -d obj
 	
 
+# Not a target:
+src/fabrica/habilidades/MagiaFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 obj/fabrica/luchadores/MineroFactory.class: src/fabrica/luchadores/MineroFactory.java
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -366,6 +416,12 @@ obj/fabrica/protectores:
 	$(MKDIR) $(OBJSUBDIR)
 	
 
+# Not a target:
+src/fabrica/protectores/NoneFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 obj/fabrica:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -374,7 +430,8 @@ obj/fabrica:
 	$(MKDIR) $(OBJSUBDIR)
 	
 
-PlayExtremeFighter.java: obj obj/man obj/fabrica obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador obj/man/FightManager.class obj/FightEngine.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.class obj/ambiente/SelectEnvironment.class obj/estrategia/Damageable.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/Component.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
+PlayExtremeFighter.java: obj obj/man obj/fabrica obj/fabrica/habilidades obj/fabrica/luchadores obj/fabrica/protectores obj/jugador obj/ambiente obj/estrategia obj/estrategia/luchador obj/estrategia/luchador/decorador obj/estrategia/habilidad obj/estrategia/observador obj/man/FightManager.class obj/FightEngine.class obj/fabrica/habilidades/MagiaFactory.class obj/fabrica/habilidades/FuerzaFactory.class obj/fabrica/habilidades/ElasticoFactory.class obj/fabrica/habilidades/NormalFactory.class obj/fabrica/Factory.class obj/fabrica/luchadores/MineroFactory.class obj/fabrica/luchadores/AleatoryFghtFtry.class obj/fabrica/luchadores/CaleranoFactory.class obj/fabrica/luchadores/ChoroFactory.class obj/fabrica/protectores/ArmourFactory.class obj/fabrica/protectores/NoneFactory.class obj/fabrica/protectores/BucalFactory.class obj/PlayExtremeFighter.class obj/jugador/Cpu.class obj/jugador/User.class obj/jugador/Player.class obj/ambiente/Environment.class obj/ambiente/FightEnvironment.class obj/ambiente/RoundEnvironment.cl 
+ass obj/ambiente/SelectEnvironment.class obj/estrategia/Damageable.class obj/estrategia/luchador/MineroWarrior.class obj/estrategia/luchador/decorador/Armour.class obj/estrategia/luchador/decorador/Bucal.class obj/estrategia/luchador/decorador/ComponentProtector.class obj/estrategia/luchador/decorador/None.class obj/estrategia/luchador/Luchador.class obj/estrategia/luchador/ChoroPortenho.class obj/estrategia/luchador/Calerano.class obj/estrategia/Component.class obj/estrategia/habilidad/Magia.class obj/estrategia/habilidad/Elastico.class obj/estrategia/habilidad/Fuerza.class obj/estrategia/habilidad/Habilidad.class obj/estrategia/habilidad/Normal.class obj/estrategia/observador/Referee.class
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -441,7 +498,6 @@ obj/fabrica/luchadores/CaleranoFactory.class: src/fabrica/luchadores/CaleranoFac
 # Not a target:
 src/fabrica/luchadores/MineroFactory.java:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -458,6 +514,14 @@ src/ambiente/FightEnvironment.java:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+obj/fabrica/habilidades/NormalFactory.class: src/fabrica/habilidades/NormalFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/habilidades/NormalFactory.java -cp src -d obj
+	
 
 obj/estrategia/Component.class: src/estrategia/Component.java
 #  Implicit rule search has not been done.
@@ -511,6 +575,14 @@ obj/jugador:
 #  File has not been updated.
 #  commands to execute (from `makefile', line 44):
 	$(MKDIR) $(OBJSUBDIR)
+	
+
+obj/fabrica/habilidades/FuerzaFactory.class: src/fabrica/habilidades/FuerzaFactory.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/fabrica/habilidades/FuerzaFactory.java -cp src -d obj
 	
 
 obj/estrategia/habilidad/Magia.class: src/estrategia/habilidad/Magia.java
@@ -596,6 +668,7 @@ obj/estrategia/luchador/decorador/Armour.class: src/estrategia/luchador/decorado
 	
 
 # Not a target:
+ 
 src/fabrica/luchadores/CaleranoFactory.java:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -608,6 +681,12 @@ obj/estrategia/habilidad/Elastico.class: src/estrategia/habilidad/Elastico.java
 #  commands to execute (from `makefile', line 32):
 	javac src/estrategia/habilidad/Elastico.java -cp src -d obj
 	
+
+# Not a target:
+src/fabrica/habilidades/NormalFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 obj/estrategia:
 #  Implicit rule search has not been done.
@@ -681,6 +760,12 @@ obj/ambiente/Environment.class: src/ambiente/Environment.java
 	javac src/ambiente/Environment.java -cp src -d obj
 	
 
+# Not a target:
+src/fabrica/habilidades/FuerzaFactory.java:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 obj/estrategia/luchador/MineroWarrior.class: src/estrategia/luchador/MineroWarrior.java
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -691,7 +776,6 @@ obj/estrategia/luchador/MineroWarrior.class: src/estrategia/luchador/MineroWarri
 
 # Not a target:
 src/estrategia/luchador/Calerano.java:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -729,6 +813,14 @@ src/estrategia/luchador/decorador/Armour.java:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+obj/estrategia/luchador/decorador/None.class: src/estrategia/luchador/decorador/None.java
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	javac src/estrategia/luchador/decorador/None.java -cp src -d obj
+	
 
 # Not a target:
 src/estrategia/habilidad/Elastico.java:
@@ -815,7 +907,7 @@ src/estrategia/observador/Referee.java:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=85/1024=8%, Rehash=0, Collisions=20/176=11%
+# Load=98/1024=10%, Rehash=0, Collisions=20/202=10%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -827,6 +919,6 @@ src/estrategia/observador/Referee.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jun 12 02:42:50 2022
+# Finished Make data base on Thu Jun 16 21:30:13 2022
 
  

@@ -1,9 +1,16 @@
 package estrategia.habilidad;
 
-public interface Habilidad {
+import estrategia.Component;
 
-    public String lanzar();
-    public short itsDmg();
-    public String getTipo();
+public abstract class Habilidad extends Component{
+
+    abstract public String lanzar();
+    abstract public short itsDmg();
+    abstract public String getTipo();
+    @Override
+    public Component getRootCmpt() {
+        // TODO Auto-generated method stub
+        return null;
+    }
 	
 }

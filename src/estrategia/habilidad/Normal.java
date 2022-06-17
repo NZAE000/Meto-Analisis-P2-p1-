@@ -1,8 +1,8 @@
 package estrategia.habilidad;
 
-public class Normal implements Habilidad{
+public class Normal extends Habilidad {
 
-    private static final String TIPO = "NORMAL";
+    public static final String TIPO = "NORMAL";
 
     @Override
     public String lanzar() { return "SUPER GANCHO!!!\n"; }

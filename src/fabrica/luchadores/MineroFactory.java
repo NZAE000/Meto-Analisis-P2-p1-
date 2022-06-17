@@ -5,7 +5,7 @@ import estrategia.habilidad.Magia;
 import estrategia.luchador.MineroWarrior;
 import fabrica.Factory;
 
-public class MineroFactory extends Factory{
+public class MineroFactory implements Factory{
 
     @Override
     public Component createComponent() {
